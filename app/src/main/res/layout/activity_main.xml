@@ -9,13 +9,15 @@
         android:id="@+id/searchInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Introduceți un cuvânt cheie" />
+        android:hint="Introdu text pentru căutare"
+        android:inputType="text" />
 
     <Button
-        android:id="@+id/searchButton"
+        android:id="@+id/cautareGoogleButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Căutare Google" />
+
 
     <Button
         android:id="@+id/fetchWeatherButton"

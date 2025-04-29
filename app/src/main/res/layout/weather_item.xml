@@ -9,14 +9,14 @@
         android:id="@+id/weatherTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textSize="18sp"
-        android:text="Title" />
+        android:text="Title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/weatherDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:text="Description" />
+        android:text="Description"
+        android:textSize="22sp" />
 </LinearLayout>
